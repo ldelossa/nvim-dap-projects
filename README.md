@@ -29,7 +29,7 @@ lua require('nvim-dap-projects').search_project_config()
 Install the plugin and then call it's `search_project_config` method at any point
 after its install. 
 
-By default the paths `./nvim-dap.lua` and `./.nvim-dap/nvim-dap.lua` are searched
+By default the paths `./nvim-dap.lua`, `./.nvim-dap/nvim-dap.lua` and `.nvim/nvim-dap.lua` are searched
 for.
 
 You may modify this by changing or appending to the plugin's `config_paths` array

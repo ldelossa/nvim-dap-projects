@@ -1,6 +1,6 @@
 local M = {}
 
-M.config_paths = {"./.nvim-dap/nvim-dap.lua", "./.nvim-dap.lua"}
+M.config_paths = {"./.nvim-dap/nvim-dap.lua", "./.nvim-dap.lua", "./.nvim/nvim-dap.lua"}
 
 function M.search_project_config()
     if not pcall(require, "dap") then
